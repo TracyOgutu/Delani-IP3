@@ -1,10 +1,22 @@
+//business logic
+
 function userDetail(){
 
-    var name=parseInt(document.getElementById("name"));
-    var email=parseInt(document.getElementById("email"));
-    var message=parseInt(document.getElementById("message"));
+    var name=document.getElementById("name").value;
+    var email=document.getElementById("email").value;
+    var message=document.getElementById("message").value;
 
     alert(name);
     alert(email);
     alert(message);
 }
+
+userDetail();
+
+//user interface logic
+
+$(document).ready(function(){
+
+    
+
+});

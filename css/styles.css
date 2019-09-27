@@ -36,15 +36,25 @@
     
 
 }
+#portfolio{
+    text-align: center;
+}
 #portfolioimgs img{
     width:23%;
+    margin-left:22px;
 }
 
 #contactus{
     background-image: url(../assets/backgrounds/c_image.jpg);
     background-size: cover;
+    text-align: center;
+    color: white;
 }
-#social{
+#social {
+
     text-align:center;
 }
+#social #social-icons img{
+    
 
+}
