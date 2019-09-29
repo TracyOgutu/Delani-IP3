@@ -32,9 +32,16 @@
 }
 
 #serviceimgs{
-    margin-left: 100px;
+    margin-left:100px;
     
-
+}
+.card {
+    text-align: center;
+}
+#serviceimgs img{
+    
+    margin-left:200px;
+    text-align: center;
 }
 #portfolio{
     text-align: center;
@@ -54,7 +61,133 @@
 
     text-align:center;
 }
-#social #social-icons img{
+#social #social-icons {
     
-
+margin-left:400px;
 }
+#social #social-icons img{
+    margin-left: 10px;
+}
+#designtext{
+    /* display: none; */
+    width: 17%;
+    
+}
+#development-text{
+    display: none;
+    text-align: justify center;
+
+ }   
+#product-management-text{
+     display: none;
+ }
+
+.form-group input{
+    background: transparent;
+    border:1px solid white;
+}
+
+#inputmessage{
+    height: 300px;
+    width:60%;
+    
+}
+.designlogo{
+    cursor:pointer;
+    
+}
+.developmentlogo{
+    cursor:pointer;
+}
+
+.productmangementlogo{
+    cursor:pointer;
+}
+.item{
+    text-align:center;
+    display:inline-block;
+    vertical-align:top;
+}
+.caption{
+    display:block;
+    margin-left:200px;
+}
+
+/* trial phase */
+.icons{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+}
+.icon-1{
+    width: 33%;
+}
+.icon-2{
+    width: 33%;
+}
+.icon-3{
+    width: 33%;
+}
+
+
+
+.p1{
+    display: none;
+}
+.p2{
+    display: none;
+}
+.p3{
+    display: none;
+}
+
+
+ #blank{
+
+cursor: pointer;
+
+ }
+
+ #ontario{
+cursor: pointer;
+ }
+#orange{
+cursor: pointer;
+}
+#jimcarey{
+cursor: pointer;
+}
+ #goodday{
+cursor: pointer;
+ }
+ #form{
+cursor: pointer;
+ }
+#burned{
+cursor: pointer;
+}
+#giraffe{
+cursor: pointer;
+}
+/* PARAGRAPH */
+.prg1{
+    position: absolute;
+    color: ghostwhite;
+    text-align: center;
+    left: 30px;
+
+    display: none;
+}
+
+input[type="email"]::placeholder{
+    color:white;
+}
+
+
+input[type="text"]::placeholder{
+    color:white;
+}
+
+
