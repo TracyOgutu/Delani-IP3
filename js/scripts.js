@@ -66,6 +66,48 @@ $('#details-form').bind('submit', function(event) {
         $(".prg1").show();
     }).mouseout(function(){
         $(".prg1").hide();
+    });
+
+    $("#ontario").mouseover(function(){
+        $(".prg2").show();
+    }).mouseout(function(){
+        $(".prg2").hide();
+    });
+
+    $("#orange").mouseover(function(){
+        $(".prg3").show();
+    }).mouseout(function(){
+        $(".prg3").hide();
+    })
+
+    $("#jimcarey").mouseover(function(){
+        $(".prg4").show();
+    }).mouseout(function(){
+        $(".prg4").hide();
+    })
+
+    $("#goodday").mouseover(function(){
+        $(".prg5").show();
+    }).mouseout(function(){
+        $(".prg5").hide();
+    })
+
+    $("#form").mouseover(function(){
+        $(".prg6").show();
+    }).mouseout(function(){
+        $(".prg6").hide();
+    })
+
+    $("#burned").mouseover(function(){
+        $(".prg7").show();
+    }).mouseout(function(){
+        $(".prg7").hide();
+    })
+
+    $("#giraffe").mouseover(function(){
+        $(".prg8").show();
+    }).mouseout(function(){
+        $(".prg8").hide();
     })
 
 

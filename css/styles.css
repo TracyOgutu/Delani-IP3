@@ -180,6 +180,63 @@ cursor: pointer;
 
     display: none;
 }
+.prg2{
+    position: absolute;
+    color: ghostwhite;
+    text-align: center;
+    left: 30px;
+
+    display: none;
+}
+.prg3{
+    position: absolute;
+    color: ghostwhite;
+    text-align: center;
+    left: 30px;
+
+    display: none;
+}
+.prg4{
+    position: absolute;
+    color: ghostwhite;
+    text-align: center;
+    left: 30px;
+
+    display: none;
+}
+.prg5{
+    position: absolute;
+    color: ghostwhite;
+    text-align: center;
+    left: 30px;
+
+    display: none;
+}
+.prg6{
+    position: absolute;
+    color: ghostwhite;
+    text-align: center;
+    left: 30px;
+
+    display: none;
+}
+.prg7{
+    position: absolute;
+    color: ghostwhite;
+    text-align: center;
+    left: 30px;
+
+    display: none;
+}
+.prg8{
+    position: absolute;
+    color: ghostwhite;
+    text-align: center;
+    left: 30px;
+
+    display: none;
+}
+
 
 input[type="email"]::placeholder{
     color:white;
