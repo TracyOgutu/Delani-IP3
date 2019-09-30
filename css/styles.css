@@ -190,6 +190,7 @@ cursor: pointer;
     text-align: center;
     left: 30px;
     top:200px;
+    border: 2px solid;
 
     display: none;
 }
