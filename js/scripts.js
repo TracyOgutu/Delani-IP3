@@ -1,4 +1,3 @@
-
 $(document).ready(function(){ 
 /*  Mailchimp Subscribe  */
 $('#details-form').bind('submit', function(event) {
@@ -28,9 +27,9 @@ $('#details-form').bind('submit', function(event) {
  });//EO click bind
  
    
-//user interface logic
 
-// first icon
+
+
     $(".designlogo").click(function(){
         $(".p1").toggle();        
         $(".designlogo").toggle();        
@@ -40,7 +39,7 @@ $('#details-form').bind('submit', function(event) {
         $(".p1").toggle();        
     });
 
-// second icon 
+ 
     $(".developmentlogo").click(function(){
         $(".p2").toggle();
         $(".developmentlogo").toggle();
@@ -50,7 +49,6 @@ $('#details-form').bind('submit', function(event) {
         $(".p2").toggle();
     });
 
-// third icon 
     $(".productmanagementlogo").click(function(){
         $(".p3").toggle();
         $(".productmanagementlogo").toggle();
