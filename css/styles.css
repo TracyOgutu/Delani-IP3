@@ -196,7 +196,7 @@ cursor: pointer;
     position: absolute;
     color: ghostwhite;
     text-align: center;
-    left: 30px;
+    left: 500px;
 
     display: none;
 }
@@ -204,7 +204,7 @@ cursor: pointer;
     position: absolute;
     color: ghostwhite;
     text-align: center;
-    left: 30px;
+    left: 800px;
 
     display: none;
 }
@@ -212,7 +212,7 @@ cursor: pointer;
     position: absolute;
     color: ghostwhite;
     text-align: center;
-    left: 30px;
+    left: 1200px;
 
     display: none;
 }

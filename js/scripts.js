@@ -69,7 +69,7 @@ $('#details-form').bind('submit', function(event) {
     });
 
     $("#ontario").mouseover(function(){
-        $(".prg2").show();
+         $(".prg2").show();
     }).mouseout(function(){
         $(".prg2").hide();
     });
