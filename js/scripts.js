@@ -1,7 +1,5 @@
 
-$(document).ready(function(){
-
-    var name  = $('[name = "name"]').val();
+$(document).ready(function(){ 
 /*  Mailchimp Subscribe  */
 $('#details-form').bind('submit', function(event) {
     event.preventDefault(); //prevent page refresh
@@ -26,7 +24,6 @@ $('#details-form').bind('submit', function(event) {
            alert(errorThrown);
          }
      });//EO ajax
-
      alert(name + " " + "we have received your message. Thank you for reaching out to us.");
  });//EO click bind
  
