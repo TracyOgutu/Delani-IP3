@@ -18,8 +18,7 @@ $('#details-form').bind('submit', function(event) {
    $.ajax({
          type: "POST",
          url: url,
-         dataType: 'json',
-         
+         dataType: 'json',        
          success: function(data) {   
            $('#details-form').html(name + "we have received your message. Thank you for reaching out to us.");
          },
