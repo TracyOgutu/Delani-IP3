@@ -147,12 +147,15 @@ margin-left:400px;
 
 .p1{
     display: none;
+    cursor: pointer;
 }
 .p2{
     display: none;
+    cursor: pointer;
 }
 .p3{
     display: none;
+    cursor: pointer;
 }
 
 
@@ -186,68 +189,81 @@ cursor: pointer;
 /* PARAGRAPH */
 .prg1{
     position: absolute;
-    color: ghostwhite;
+    color:greenyellow;
     text-align: center;
-    left: 30px;
-    top:200px;
-    border: 2px solid;
-
+    left: 80px;
+    border: 2px solid white;
+    top:190px;
     display: none;
+    font-size: 20px;
 }
 .prg2{
+    font-size: 20px;
     position: absolute;
-    color: ghostwhite;
+    color:greenyellow;
     text-align: center;
-    left: 500px;
-
+    left: 440px;
+    border: 2px solid white;
     display: none;
 }
 .prg3{
+    font-size: 20px;
+    top:190px;
     position: absolute;
-    color: ghostwhite;
+    color:greenyellow;
     text-align: center;
     left: 800px;
-
+    border: 2px solid white;
     display: none;
 }
 .prg4{
+    font-size: 20px;
+    top:190px;
     position: absolute;
-    color: ghostwhite;
+    color:greenyellow;
     text-align: center;
     left: 1200px;
-
+    border: 2px solid white;
     display: none;
 }
 .prg5{
+    font-size: 20px;
+    top:375px;
     position: absolute;
-    color: ghostwhite;
+    color:greenyellow;
     text-align: center;
     left: 30px;
-
+    border: 2px solid white;
     display: none;
 }
 .prg6{
+    font-size: 20px;
+    top:370px;
     position: absolute;
-    color: ghostwhite;
+    color:orangered;
     text-align: center;
-    left: 30px;
-
+    left: 450px;
+    border: 2px solid white;
     display: none;
 }
 .prg7{
+    font-size: 20px;
+    top:370px;
     position: absolute;
-    color: ghostwhite;
+    color: greenyellow;
     text-align: center;
-    left: 30px;
-
+    left: 800px;
+    border: 2px solid white;
     display: none;
 }
 .prg8{
+    font-size: 20px;
+    top:370px;
     position: absolute;
-    color: ghostwhite;
+    color:orangered;
     text-align: center;
-    left: 30px;
-
+    left: 1100px;
+    border: 2px solid white;
     display: none;
 }
 
