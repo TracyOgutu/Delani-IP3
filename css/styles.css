@@ -189,6 +189,7 @@ cursor: pointer;
     color: ghostwhite;
     text-align: center;
     left: 30px;
+    top:200px;
 
     display: none;
 }
