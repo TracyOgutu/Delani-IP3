@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
 
-
+    var name  = $('[name = "name"]').val();
 /*  Mailchimp Subscribe  */
 $('#details-form').bind('submit', function(event) {
     event.preventDefault(); //prevent page refresh
@@ -19,16 +19,18 @@ $('#details-form').bind('submit', function(event) {
          type: "POST",
          url: url,
          dataType: 'json',
-         success: function(data) {
-           $('#details-form').text(name + " " + "we have received your message. Thank you for reaching out to us.");
-           alert(name + " " + "we have received your message. Thank you for reaching out to us.");
+         
+         success: function(data) {   
+           $('#details-form').html(name + "we have received your message. Thank you for reaching out to us.");
          },
          error: function(jqXHR, textStatus, errorThrown) {
            alert(errorThrown);
          }
      });//EO ajax
- });//EO click bind
 
+     alert(name + " " + "we have received your message. Thank you for reaching out to us.");
+ });//EO click bind
+ 
    
 //user interface logic
 
