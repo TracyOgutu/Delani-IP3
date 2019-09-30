@@ -37,6 +37,13 @@ This project is a studio web application. It is a responsive website. It contain
 
 10.The code will then be displayed 
 
+### USER INTERACTION
+
+1. To contact Delani Studio, scroll to the Contact Us Section
+2. Fill in your name, email and message
+3. You will receive an email promptly 
+4. If you wish to subscribe to the Studio click the subscribe button in the email 
+
 ### TECHNOLOGIES USED
 
 _MAIL CHIMP SERVICE_
